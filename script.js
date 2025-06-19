@@ -61,6 +61,8 @@ function removeItem(e){
 function filterItem(e){
     // Convert tecrt to lowercase
     var text = e.target.value.toLowerCase();
-    console.log(text);
+    //console.log(text);// for test
+    // let grab all the li
+    itemList.getElementsByTagName('li')
 }
 

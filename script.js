@@ -68,8 +68,25 @@ function filterItem(e){
      // Convert to an array
      Array.from(items).forEach(function(item){ //Gets the text content
         var itemName = item.firstChild.textContent;
-        console.log(itemName)
+        //console.log(itemName)
+        // Check if the lowercase version of itemName contains the string 'text'
+        if(itemName.toLowerCase().indexOf(text)!= -1){
+            // If it does, make the item visible by setting its display style to 'block'
+            item.style.display = 'block';
+        }else{
+             // If it does not, hide the item by setting its display style to 'none'
+            item.style.display = 'none';
+        }
      })
+
+     
+if(itemName.toLowerCase().indexOf(text) != -1){
+    
+    item.style.display = 'block';
+}else{
+   
+    item.style.display = 'none';
+}
 
 }
 

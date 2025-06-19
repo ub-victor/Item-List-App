@@ -40,3 +40,6 @@ function addItem(e){
     itemList.appendChild(li);
 
 }
+
+
+// Remove item

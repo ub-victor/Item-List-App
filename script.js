@@ -12,12 +12,15 @@ function addItem(e){
     e.preventDefault();
     
     // Get input Value
-    var newItem = document.getElementById('item');
+    var newItem = document.getElementById('item').value;
     
     // Create new li element
     var li = document.createElement('li')
     // Add a class name to it as other li as a class name of list-group-item
     li.className = 'list-group-item';
-    console.log(li);
+    // Add text node with input Value
+    li.appendChild(document.createTextNode(newItem))
+
+    itemList.appendChild(li);
 
 }

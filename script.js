@@ -58,9 +58,9 @@ function removeItem(e){
 
 // Filter Items
 
-function filterItem(){
+function filterItem(e){
     // Convert tecrt to lowercase
-    var text = e.target.value.toLowerCase;
+    var text = e.target.value.toLowerCase();
     console.log(text);
 }
 

@@ -60,14 +60,15 @@ function removeItem(e){
 
 function filterItem(e){
     // Convert tecrt to lowercase
-    var text = e.target.value.toLowerCase();
+    var text = e.target.value.toLowerCase();// Converts the HTMLCollection to an array
     //console.log(text);// for test
     // let grab all the li
      var items = itemList.getElementsByTagName('li') // here it is a collection we need to turn it in an array
      // console.log(items)
      // Convert to an array
-     Array.from(items).forEach(function(item){
+     Array.from(items).forEach(function(item){ //Gets the text content
         var itemName = item.firstChild.textContent;
+        console.log(itemName)
      })
 
 }

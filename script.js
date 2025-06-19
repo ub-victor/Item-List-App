@@ -78,6 +78,5 @@ function filterItem(e){
             item.style.display = 'none';
         }
      })
-
 }
 

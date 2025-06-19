@@ -48,6 +48,7 @@ function removeItem(e){
     if (e.target.classList.contains('delete')){ //  is the actual element that was clicked (the button), not the ul or li.
         if(confirm('Are You Sure?')){
             var li = e.target.parentElement;//  e.target is the element that was actually clicked
+            itemList.removeChild(li);
         }
     }
 }

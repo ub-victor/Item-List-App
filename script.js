@@ -45,9 +45,8 @@ function addItem(e){
 // Remove item
 
 function removeItem(e){
-    // if (e.target.classList.contains('delete')){
-    //     console.log(3);
-    // }
-    console.log(e.target)
+    if (e.target.classList.contains('delete')){
+        console.log(3);
+    }
 }
 

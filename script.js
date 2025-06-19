@@ -21,6 +21,18 @@ function addItem(e){
     // Add text node with input Value
     li.appendChild(document.createTextNode(newItem))
 
+    // Create the delete button element
+    var deleteBtn = document.createElement('button')
+
+    // Add classes to del button 
+    deleteBtn.className = "btn btn-danger btn-sm float-right delete";
+
+    // Append text node 
+    deleteBtn.appendChild(document.createTextNode('x'));
+
+    li.appendChild(deleteBtn);
+
+
     itemList.appendChild(li);
 
 }

@@ -56,3 +56,11 @@ function removeItem(e){
     }
 }
 
+// Filter Items
+
+function filterItem(){
+    // Convert tecrt to lowercase
+    var text = e.target.value.toLowerCase;
+    console.log(text);
+}
+

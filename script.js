@@ -63,6 +63,6 @@ function filterItem(e){
     var text = e.target.value.toLowerCase();
     //console.log(text);// for test
     // let grab all the li
-     var items = itemList.getElementsByTagName('li')
+     var items = itemList.getElementsByTagName('li') // here it is a collection we need to turn it in an array
 }
 

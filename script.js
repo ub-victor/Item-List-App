@@ -18,6 +18,7 @@ function addItem(e){
     var li = document.createElement('li')
     // Add a class name to it as other li as a class name of list-group-item
     li.className = 'list-group-item';
+    li.textContent= "Hello";
     console.log(li);
 
 }

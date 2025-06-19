@@ -5,6 +5,8 @@
  /// Frorm submit event
 
 form.addEventListener('submit', addItem); 
+// Delete Event
+itemList.addEventListener('click', removeItem)
 
 //Add Item
 

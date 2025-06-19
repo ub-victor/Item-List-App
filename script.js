@@ -50,3 +50,5 @@ function removeItem(e){
     }
 }
 
+ console.log(itemList.classList)
+

@@ -30,9 +30,11 @@ function addItem(e){
     // Append text node 
     deleteBtn.appendChild(document.createTextNode('x'));
 
+
+    // Append button to the li
     li.appendChild(deleteBtn);
 
-
+    // Append li to the list
     itemList.appendChild(li);
 
 }

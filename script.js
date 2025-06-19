@@ -10,5 +10,7 @@ form.addEventListener('submit', addItem);
 
 function addItem(e){
     e.preventDefault();
-    console.log(1)
+    
+    // Get input Value
+    var newItem = document.getElementById('item');
 }

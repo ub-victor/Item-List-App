@@ -64,5 +64,9 @@ function filterItem(e){
     //console.log(text);// for test
     // let grab all the li
      var items = itemList.getElementsByTagName('li') // here it is a collection we need to turn it in an array
+     // console.log(items)
+     // Convert to an array
+     Array.from(items).forEach(function(item))
+
 }
 
